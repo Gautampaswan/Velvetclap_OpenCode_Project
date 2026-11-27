@@ -1,0 +1,25 @@
+{
+  "name": "velvetclap-playwright-automation",
+  "version": "1.0.0",
+  "description": "POM + fixtures Playwright JS framework for Velvetclap streetwear store",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:api": "playwright test tests/api",
+    "test:shard1": "playwright test --shard=1/4",
+    "test:shard2": "playwright test --shard=2/4",
+    "test:shard3": "playwright test --shard=3/4",
+    "test:shard4": "playwright test --shard=4/4",
+    "report": "playwright show-report",
+    "install:browsers": "npx playwright install"
+  },
+  "keywords": ["playwright", "javascript", "automation", "velvetclap"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {}
+}

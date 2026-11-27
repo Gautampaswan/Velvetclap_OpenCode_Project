@@ -1,0 +1,21 @@
+{
+  "searchTerms": ["tee", "cargo", "hoodie"],
+  "categoryPills": ["tees", "bottoms", "accessories", "headwear"],
+  "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+  "fits": ["Oversized", "Boxy Fit", "Relaxed Fit", "Straight Cut"],
+  "sortOptions": ["trending", "price-low", "price-high", "discount", "rating"],
+  "pincodes": {
+    "dehradun": "248001",
+    "invalid": "000000"
+  },
+  "newsletter": {
+    "email": "demo@velvetclap.test"
+  },
+  "shippingDetails": {
+    "name": "Demo User",
+    "email": "demo@velvetclap.test",
+    "phone": "9876543210",
+    "pincode": "248001",
+    "address": "123 Demo Street, Dehradun, Uttarakhand"
+  }
+}

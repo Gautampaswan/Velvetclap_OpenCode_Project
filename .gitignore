@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.local
+auth/storage/*.json
+reports/
+test-results/
+playwright-report/
+trace/
+*.log
+.DS_Store
